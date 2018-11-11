@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Check Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="POST" id="Form" onsubmit="return validator(this)">
+        <input type="text" id="name" name="name" placeholder="Pay To .."/><br>
+        <input type="text" id="date" name="date" placeholder="00/00/0000"/><br>
+        <input text="text" id="amount" name="amount" placeholder="$1.00"/><br>
+        <input type="text" id="written-amount" name="writtenamount" placeholder="Written amount"><br>
+        <input type="file" id="image-png" name="imagepng" accept=".png"><br>
+        <div id="img_contain"><img src="" id="my-signature" alt="My Signature"></div>
+        <input type="text" id="for" name="for" placeholder="For"/><br>
+        <input type="submit" id="submit-info"/>
+    </form>
+
+
+    <!--<img src="../assets/blank_check.jpg" class="blankcheck" alt="blankcheck">-->
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/index.js"></script>   
+</body>
+</html>
